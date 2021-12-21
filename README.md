@@ -22,7 +22,7 @@ J-CamHacker is a phishing tool. It will generate a link. If anyone opens the lin
 ### [+] Installation
 
  - `git clone https://github.com/alvinbaby/J-CamHacker`
- - `cd JCamHacker`
+ - `cd J-CamHacker`
 
 For termux, use additional command `termux-setup-storage`
  - `bash ch.sh`
