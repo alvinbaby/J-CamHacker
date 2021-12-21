@@ -59,8 +59,16 @@ Thanks to <a href="https://github.com/noob-hackers/grabcam">Noob-Hackers</a>, <a
 ### [+] Disclaimer 
 ***This tool is developed for educational purposes. Here it demonstrates how camera phishing works. If anybody wants to gain unauthorized access to someones camera, he/she may try out this at his/her own risk. You have your own responsibilities and you are liable to any damage or violation of laws by this tool. The author is not responsible for any misuse of J-CamHacker!***
 
+----
 ### [+] Find me on 
-<a href="mailto:alvinbabykrd@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-alvinbabykrd@gmail.com-blue?style=for-the-badge&logo=gmail"></a>
 
-<a href="https://m.me/alvinbaby" target="_blank"><img src="https://img.shields.io/badge/Messenger-alvinbaby-blue?style=for-the-badge&logo=messenger"></a>
+<h3 align="center">Please follow Me:</h3>
+<p align="center">
+<a href="https://instagram.com/mr__alvin_07?utm_medium=copy_link" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="kyrie.baran" height="30" width="40" /></a>
+</p>
+<h4 align="center">Please subscribe channel 👇:</h4>
+<p align="center">
+<a href="https://youtube.com/channel/UCpo3efKm3m1XVCzecSAOgkA" target="blank"><img align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/1200px-Logo_of_YouTube_%282015-2017%29.svg.png" height="45" width="90" /></a>
+</p>
 
+----
