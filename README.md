@@ -1,6 +1,6 @@
 <h2 align="center"><u>J-CamHacker</u></h2>
 
-![Hack anyone's camera and get images](files/banner.png)
+![Hack anyone's camera and get images](files/JCamHacker.png)
 <h4 align="center"> Hack anyone's camera and get images!</h4>
 
 <p align="center">
