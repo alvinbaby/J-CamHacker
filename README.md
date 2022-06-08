@@ -20,7 +20,7 @@
 J-CamHacker is a phishing tool. It will generate a link. If anyone opens the link and permits camera access, his/her photo will be captured and sent to you!
 
 ### [+] Installation
-
+ - `apt - pkg install php curl wget unzip`
  - `git clone https://github.com/alvinbaby/J-CamHacker`
  - `cd J-CamHacker`
 
